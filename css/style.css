@@ -6,13 +6,18 @@
 
 h1 {
     font-size: 2em;
+    margin-left: 50px;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 50px;
 }
 
 .container {
+    display: flex;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     height: 100vh;
+    justify-content: space-between;
 }
 
 .row {
@@ -20,11 +25,25 @@ h1 {
     justify-content: center;
 }
 
+main {
+    align-self: center;
+}
+
 .box {
     width: 150px;
     height: 150px;
     background-color: white;
     border: 3px solid black;
+}
+
+.reset {
+    height: 40px;
+    width: 100px; 
+    align-self: center;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    margin-right: 50px;  
 }
 
 /* Modal Styles */
