@@ -1,0 +1,16 @@
+MVP
+As a user I want my game to have clickable 3x3 grid where I can place Xs and Os by clicking on the position.
+As a user I shouldn’t be able to click a square that is already in use.
+As a user I want to see who’s turn it is.
+As a user I want to have a reset button so I can play again.
+
+
+Stretch Goals
+
+### BRONZE ###
+As a user id like for a message to appear when the current player clicks an invalid square
+
+### SILVER ###
+
+
+### GOLD ### 
