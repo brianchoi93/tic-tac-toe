@@ -3,3 +3,31 @@
 * {
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 2em;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgray;
+    height: 100vh;
+}
+
+main {
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid black;
+}
