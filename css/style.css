@@ -12,12 +12,7 @@ h1 {
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    background-color: lightgray;
     height: 100vh;
-}
-
-main {
-
 }
 
 .row {
@@ -30,4 +25,30 @@ main {
     height: 150px;
     background-color: white;
     border: 3px solid black;
+}
+
+/* Modal Styles */
+
+.hide {
+    display: none;
+}
+
+.modal-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9d2c5;
+    padding: 2em;
+    box-shadow: 4px 1px 10px 0px #dadada;
+    border-radius: 4px;
 }
